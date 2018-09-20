@@ -1,0 +1,5 @@
+Run "sbt package" in project root directory
+
+Run
+
+spark-submit --packages com.databricks:spark-csv_2.11:1.5.0   --class Project target/scala-2.11/project_2.11-1.0.jar hdfs:///user/abs699/project
